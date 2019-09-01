@@ -5,8 +5,8 @@ spring:
     name: zuul-gateway
 zuul:
   routes:
-    sysmanage.serviceId: hrm-management # 服务名
-    sysmanage.path: /management/** # 把sysmanage打头的所有请求都转发给HRM-MANAGEMENT
+    management.serviceId: hrm-management # 服务名
+    management.path: /management/** # 把management打头的所有请求都转发给HRM-MANAGEMENT
     course.serviceId: hrm-course # 服务名
     course.path: /course/** # 把course打头的所有请求都转发给HRM-COURSE
   ignored-services: "*" #所有服务都不允许以服务名来访问
