@@ -9,6 +9,8 @@ zuul:
     management.path: /management/** # 把management打头的所有请求都转发给HRM-MANAGEMENT
     course.serviceId: hrm-course # 服务名
     course.path: /course/** # 把course打头的所有请求都转发给HRM-COURSE
+    fastdfs.serviceId: hrm-fastdfs # 服务名
+    fastdfs.path: /fastdfs/** # 把course打头的所有请求都转发给HRM-FASTDFS
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
   retryable: true #是否重试
