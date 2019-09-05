@@ -1,0 +1,9 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: hrm-es
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9003
