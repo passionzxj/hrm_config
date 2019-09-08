@@ -5,7 +5,7 @@ spring:
     name: hrm-pager
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/hrm-pager
+    url: jdbc:mysql://localhost:3306/hrm_pager
     username: root
     password: 147258
 mybatis-plus:
