@@ -19,6 +19,8 @@ zuul:
     pager.path: /pager/** # 把course打头的所有请求都转发给HRM-ES
     rabbit.serviceId: hrm-rabbit # 服务名
     rabbit.path: /rabbit/** # 把course打头的所有请求都转发给HRM-ES
+    user.serviceId: hrm-user # 服务名
+    user.path: /user/** # 把course打头的所有请求都转发给HRM-ES
   ignored-services: "*" #所有服务都不允许以服务名来访问
   prefix: "/services" #加一个统一前缀
   retryable: true #是否重试
